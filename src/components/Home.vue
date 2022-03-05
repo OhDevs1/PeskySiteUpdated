@@ -8,7 +8,7 @@
                 <img v-if="!isMobile()" src="../assets/pandas.gif" alt="">
                 <img v-if="isMobile()" class="gifImage" src="../assets/pandas.gif" alt="">
                 <br><br>
-                <h4 class="Header2">{{totalSupply}} / 1,111 Minted!</h4>
+                <h4 class="Header2">{{totalSupply}} / 5,555 Minted!</h4>
                 <br>
                 <h4 class="Header2">0.15 ETH Each</h4>
                 <br>
