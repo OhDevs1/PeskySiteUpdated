@@ -1,4 +1,4 @@
-# strangesharks
+# PeskyPandas
 
 > A Vue.js project
 
