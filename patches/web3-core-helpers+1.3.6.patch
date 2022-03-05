@@ -1,0 +1,13 @@
+diff --git a/node_modules/web3-core-helpers/lib/formatters.js b/node_modules/web3-core-helpers/lib/formatters.js
+index 5e660b1..1299b7f 100644
+--- a/node_modules/web3-core-helpers/lib/formatters.js
++++ b/node_modules/web3-core-helpers/lib/formatters.js
+@@ -293,7 +293,7 @@ var inputLogFormatter = function (options) {
+         options = {};
+     // If options !== undefined, don't blow out existing data
+     if (options.fromBlock === undefined)
+-        options = { ...options, fromBlock: 'latest' };
++        options = Object.assign(options, {fromBlock: latest})
+     if (options.fromBlock || options.fromBlock === 0)
+         options.fromBlock = inputBlockNumberFormatter(options.fromBlock);
+     if (options.toBlock || options.toBlock === 0)
